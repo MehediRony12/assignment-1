@@ -88,16 +88,54 @@ body {
     font-weight: 800;
 
 }
-.hotItem{
+
+.hotItem {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 215px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
+
 }
-.socialIItem{
- 
+
+.socialIItem {
+    display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    margin-top: 128px;
+    margin-bottom: 48px;
+
 }
+
+.flowerList {
+    display: flex;
+    justify-content: center;
+
+}
+
+.someFlowres {
+    gap: 100px;
+    padding: 12px;
+}
+.latestDeal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;background-image: url("/img/Rectangle\ 9.png");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;margin-top: 70px;
+}
+.deals{
+    margin-top: 200px;
+}
+.input{
+    padding: 18px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    
